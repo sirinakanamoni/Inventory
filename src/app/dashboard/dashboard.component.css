@@ -1,0 +1,42 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+  mat-sidenav-container {
+    height: 100vh;
+  }
+  
+  mat-sidenav {
+    width: 200px;
+  }
+  
+  .dashboard-content {
+    padding: 16px;
+  }
+  
+  mat-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .area-chart, .bar-chart {
+    width: 48%;
+  }
+  .search-input {
+    width: 200px;
+    margin-right: 16px;
+  }
+  mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+  
